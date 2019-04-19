@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>table tag</title>
+    <style>
+        table,
+        td {
+            border: 1px solid blue
+        }
+
+        thead,
+        th {
+            background-color: lightgoldenrodyellow
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>This is Head</th>
+                <th>It can be multiple</th>
+                <th>By default it is bold and centered</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1st data cell</td>
+                <td>2nd data cell</td>
+                <td>3rd data cell</td>
+            </tr>
+            <tr>
+                <td>1st cell of 2nd row</td>
+                <td>2nd cell of 2nd row</td>
+                <td>3rd cell of 2nd row</td>
+            </tr>
+            <tr>
+                <td>colspan is 1</td>
+                <td colspan="2">colspan is 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Some Important notes</h1>
+    <ul>
+    <li>Table is parent tag of <strong>thead, tbody</strong></li>
+    <li><strong>thead, tbody</strong> don't have any visual effect on web page but they are sementic</li>
+    <li><strong>thead, tbody</strong> are not multiple in number, there is one thead and tbody elements nested in table element</li>
+    <li>While <u>th</u> is child of <strong>tr</strong> nested under <strong>thead</strong></li>
+    <li>Similarly <u>td</u> is child of <strong>tr</strong> nested under <strong>tbody</strong></li>
+    <li><strong>th and td</strong> can be multiple in numbers nested under <strong>tr</strong></li>
+    <li><strong>th</strong> has data of table head elements. It has by-default <u>bold and center</u> as its visual effect</li>
+    <li>
+        The <strong>td</strong> elements are the data containers of the table. They can contain all sorts of HTML
+        elements; text, images, lists, other tables, etc.
+    </li>
+    <li><strong>tr</strong> can be nested under both tags <code><u>thead</u></code> as well as <code><u>tbody</u></code>
+    </li>
+    <li><strong>tr</strong> defines table row with data cell as children either <u>td</u> or <u>th</u>at one time</li>
+</ul>
+<h2>Understanding with Examples</h2>
+<img src="images/tree.png" alt="tree" height="400" width="600">
+<img src="images/tree-output.png" alt="table" height="400" width="600">
+
+<h2>Simple Examples</h2>
+<img src="images/1.JPG" alt="example">
+<img src="images/2.JPG" alt="example">
+
+</body>
+
+</html>
